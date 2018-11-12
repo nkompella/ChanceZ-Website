@@ -1,0 +1,59 @@
+#navbar {
+	height: 100px;
+	background-color: #004f99;
+}
+
+body {
+   background-image: url(home_background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#main {
+	padding-top: 50px;
+	padding-left: 50px;
+	min-height: 80%
+}
+
+.smaller {
+	width: 80%
+}
+
+.big-button {
+	height: 100px;
+	width: 250px;
+	border-radius: 50px;
+	font-size: 20px;
+}
+@media(min-width:767px){
+	.shift-button{
+		margin-right: -100px;
+		z-index: 1000;
+		position: relative;
+	}
+
+	.shifted {
+		z-index: 999;
+		position: relative;
+	}
+
+	.shifted-button{
+		padding-left: 80px;
+	}
+
+	.bottom {
+	    position: absolute;
+	    bottom: 0;
+	    padding-left: 100px
+	}
+}
+
+.success {
+	background-color: #00994d;
+	color: white;
+}
+
+.primary {
+	background-color: #004f99;
+	color: white;
+}
