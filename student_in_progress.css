@@ -1,0 +1,135 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #333333;
+	border-bottom: gray;
+	border-style: solid;
+	border-width: .5px;
+}
+
+#left {
+	left: 100px;
+	font-family: "Helvetica";
+
+}
+
+#right {
+	left: 300px;
+	font-family: "Helvetica";
+}
+
+#logo {
+	text-indent: 180px;
+}
+
+#invest {
+	font-size: 60px;
+}
+
+/* BODY */
+
+body {
+   background-color: #333333;
+}
+
+#center_nav {
+	left: 36%;
+}
+
+#reviews {
+	font-family: "Times";
+	font-size: 50px;
+	position: relative;
+	left: 35%;
+}
+
+.row {
+	display:flex;
+	justify-content: center;
+
+}
+
+.column {
+	bottom: 10px;
+    float: left;
+    width: 18%;
+    padding: 10px;
+    height: 350px;
+    margin: 60px;
+    text-align: center;
+    font-family: "Times";
+    box-shadow: 5px 10px;
+}
+
+.btn {
+	background-color: #E09755;
+	border-radius: 50px;
+	width: 120px;
+
+}
+
+#propic {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	bottom: 130px;
+	z-index: 80;
+
+}
+
+#video {
+	width: 265px;
+	height: 150px;
+	position: relative;
+	right: 10px;
+	bottom: 75px;
+	z-index: 30;
+}
+
+#plus {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	bottom: 42px;
+	right: 129px;
+	z-index: 50;
+}
+
+#name {
+	position: relative;
+	bottom: 120px;
+	font-size: 28px;
+}
+
+#veri {
+	position: relative;
+	bottom: 110px;
+	font-size: 18px;
+}
+
+#meet {
+	position: relative;
+	bottom: 110px;
+	font-size: 18px;
+}
+
+.btn {
+	position: relative;
+	bottom: 108px;
+}
+
+#doc {
+	width: 80px ;
+	height: 75px;
+	position: relative;
+	bottom: 105px;
+	left: 18px;
+}
+
+
