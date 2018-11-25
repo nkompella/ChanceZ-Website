@@ -1,0 +1,102 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #333333;
+	border-bottom: gray;
+	border-style: solid;
+	border-width: .5px;
+}
+
+#left {
+	left: 100px;
+	font-family: "Helvetica";
+
+}
+
+#right {
+	left: 300px;
+	font-family: "Helvetica";
+}
+
+#logo {
+	text-indent: 180px;
+}
+
+#invest {
+	font-size: 60px;
+}
+
+/* BODY */
+
+body {
+   background-color: #333333;
+}
+
+#center_nav {
+	left: 36%;
+}
+
+#selectednum {
+	font-family: "Times";
+	font-size: 50px;
+	position: absolute;
+	left: 33%;
+}
+
+#filterlabel {
+	font-family: "Times";
+	font-size: 18px;
+	position: relative;
+	top:70px;
+	left: 140px;
+}
+
+#filter_nav {
+	font-family: "Helvetica";
+	font-size: 14px;
+	position: relative;
+	top:65px;
+	left: 100px;
+}
+
+#filter_right {
+	left: 340px;
+}
+
+.row {
+	display:flex;
+	padding-top: 4%;
+	justify-content: center;
+
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    height: 350px;
+    margin: 60px;
+    border-style: solid;
+    border-color: #E09755;
+    border-width: 5px;
+    text-align: center;
+    font-family: "Times";
+}
+
+.btn {
+	background-color: #E09755;
+	border-radius: 50px;
+	width: 120px;
+
+}
+
+#propic {
+	width: 100px;
+	height: 100px;
+}
+
+
