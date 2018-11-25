@@ -32,6 +32,7 @@
 - Application Upload Box [Done]
 - Video Upload Box [Done]
 8. Proposals Page
+- 2 Columns [Done]
 - Proposals with Acceptance/Denial Options 
 - Messages
 - Calendar

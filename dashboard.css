@@ -1,83 +1,84 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 #navbar {
 	height: 100px;
-	background-color: #004f99;
+	background-color: #333333;
+	border-bottom: gray;
+	border-style: solid;
+	border-width: .5px;
 }
 
-.smol {
-	margin-top: 6px
+#left {
+	left: 100px;
+	font-family: "Helvetica";
+
 }
 
-.med {
-	margin-top: 13px;
+#right {
+	left: 300px;
+	font-family: "Helvetica";
 }
 
-.hdr {
-	margin-top: 20px
+#logo {
+	text-indent: 180px;
 }
 
-.large {
-	margin-top: 30px
+#invest {
+	font-size: 60px;
 }
 
-.mega {
-	margin-top: 40px
+/* BODY */
+
+body {
+   background-color: #333333;
 }
 
-.side {
-	margin-right: 15px
+#center_nav {
+	left: 38%;
 }
 
-.same-line {
-	display: inline
+.row {
+	display:flex;
+	padding-top: 4%;
+	justify-content: center;
+
 }
 
-.box {
-  height: 40px;
-  width: 40px;
-  background-color: #D8D8D8;
+.column {
+    float: left;
+    width: 40%;
+    height: 470px;
+    border-style: solid;
+    text-align: center;
+    font-family: "Times";
 }
 
-.mentors {
-	background-color: #273c75;
-	color: white;
+.one {
+	border-right: solid;
+	border-right-width: 1px;
+	border-right-color: gray;
+	bottom: 40px;
 }
 
-.mentees {
-	background-color: #7f8fa6;
-	color: white;
+#props {
+	position: relative;
+	left: 140px;
+	top: 20px;
+	font-family: "Times";
+	font-size: 30px;
 }
 
-#side {
-	background-color: #f2f2f2;
-}
+#msgs {
+	position: relative;
+	float: right;
+	right: 650px;
+	bottom: 25px;
+	font-family: "Times";
+	font-size: 30px;
 
-#batch {
-	background-color: #004f99;
-	color: white;
-}
-
-.batch_button {
-	background-color: #6F9EC9;
-	border: none;
-	color: white;
-}
-
-.grey {
-	background-color: #f2f2f2;
-	border-color: white;
-}
-
-.green {
-	background-color: #00994d;
-	color: white;
-	border: none;
-}
-
-.modal-wide {
-  width: 1000px;
-  margin: auto;
-}
-
-.hgt {
-	min-height: 350px
 }
