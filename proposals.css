@@ -45,37 +45,26 @@ body {
 .row {
 	display:flex;
 	padding-top: 4%;
-	justify-content: center;
-	align-items: center;
+	margin-left: 120px;
 
 }
 
 .column {
-    width: 40%;
-    height: 350px;
-    border-style: solid;
+    width: 50%;
+    margin: auto;
+    height: 450px;
+/*    border-style: solid;
     border-color: #E09755;
-    border-width: 5px;
-    text-align: center;
-    font-family: "Times";
+    border-width: 5px;*/
 }
 
-/*.column {
-    float: center;
-    width: 45%;
-    height: 470px;
-    border-style: solid;
-    text-align: center;
-    font-family: "Times";
-}*/
-
-/*.one {
-	border-right: solid;
+.one {
+	border-right-style: solid;
 	border-right-width: 1px;
 	border-right-color: gray;
-	bottom: 40px;
+
 }
-*/
+
 #props {
 	position: relative;
 	left: 140px;
@@ -87,7 +76,7 @@ body {
 #msgs {
 	position: relative;
 	float: right;
-	right: 650px;
+	right: 570px;
 	bottom: 25px;
 	font-family: "Times";
 	font-size: 30px;
