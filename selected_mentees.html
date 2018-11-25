@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="new_mentees.css">
+		<link rel="stylesheet" href="selected_mentees.css">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -39,64 +39,20 @@
 		<nav class="navbar navo navbar-expand-lg navbar-light" id="center_nav">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item active">
-		        <a class="nav-link text-white" href="new_mentees.html">New Mentees</a>
+		        <a class="nav-link text-white" href="#">New Mentees</a>
 		      </li>
 		      <li class="nav-item active">
-		        <a class="nav-link text-white" href="in_progress.html">In Progress</a>
+		        <a class="nav-link text-white" href="#">In Progress</a>
 		      </li>
 		      <li class="nav-item active">
-		        <a class="nav-link text-white" href="current_mentees.html">Current Mentees</a>
+		        <a class="nav-link text-white" href="#">Current Mentees</a>
 		      </li>
 		    </ul>
 		</nav>
 
-		<div id="selectednum" class="text-white">0/3 selected this week.</div>
-
-		<div id="filterlabel" class="text-white">Filter Options</div>
-
-
-		<nav class="navbar navbar-expand-lg navbar-light" id="filter_nav">
-			<div class="col text-left" id="filter_left">
-			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Location</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Year</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Gender</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Age</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">University</a>
-			      </li>
-			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Major</a>
-			      </li>
-			    </ul>
-			</div>
-
-		   	<div class="col" id="filter_right">
-				<ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
-			        <a href="index.html" class="nav-link text-white">Sort by</a>
-			      </li>
-			    </ul>
-			</div>
-		</nav>
+		<div id="confirm" class="text-white">Confirm Proposals</div>
 
 		<div class="row">
-			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">
-				<img id="video" src="v2/People/blurred_pics/student1_blurred.jpg">
-				<img id="propic" src="v2/People/student_circles/student1.png">
-	    		<h2 id="name" class="text-white">Pablo, Freshman </h2>
-	    		<p class="text-white">An avid reader, boy scout and all-around community leader, Pablo hopes to major in psychology at Arizona State University.</p>
-	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
-	  		</div>
 			<div class="column" style="background-color:#989898;">
 				<img id="plus" src="v2/drawisland.png">			
 				<img id="video" src="v2/People/blurred_pics/student2_blurred.jpg">
@@ -114,22 +70,6 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">			
-				<img id="video" src="v2/People/blurred_pics/student4_blurred.jpg">
-				<img id="propic" src="v2/People/student_circles/student4.png">
-	    		<h2 id="name" class="text-white">Trevor, Junior </h2>
-	    		<p class="text-white">With 3 internships and 2 research projects accomplished, Trevor hopes his degree in CS from UCSD will help him become the next Bill Gates. </p>
-	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
-	  		</div>
-			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">
-				<img id="video" src="v2/People/blurred_pics/student5_blurred.jpg">
-				<img id="propic" src="v2/People/student_circles/student5.png">
-	    		<h2 id="name" class="text-white">Ella, Sophomore </h2>
-	    		<p class="text-white">A 2 time winner of the National Scholastic Journalism convention, Ella hopes to major in English Literature and become a teacher.</p>
-	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
-	  		</div>
-			<div class="column" style="background-color:#989898;">
 				<img onclick="replaceMe()" id="plus" class=6plus src="v2/drawisland.png">
 				<img id="video" src="v2/People/blurred_pics/student6_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student6.png">
@@ -139,7 +79,7 @@
 	  		</div>  			  			  			  					
 		</div>
 
-		<a href="selected_mentees.html"><button id="submit" type="button">Send Proposals</button></a>
+		<a href="in_progress.html"><button id="submit" type="button">Send Proposals</button></a>
 
 		<script type="text/javascript">
 			function replaceMe() {
