@@ -5,10 +5,15 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-			<div class="col">
+
+			<div id="logo">
+				<img src="v2/Logos/czlogowhite.png" height="40" width="100">
+			</div>
+
+			<div class="col text-left" id="left">
 			    <ul class="navbar-nav mr-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link text-white" href="#">Discover</a>
+			        <a class="nav-link text-white" href="#">Home</a>
 			      </li>
 			      <li class="nav-item active">
 			        <a class="nav-link text-white" href="#">About</a>
@@ -18,32 +23,36 @@
 			      </li>
 			    </ul>
 			</div>
-			<div class="col text-center">
-				<a class="navbar-brand text-white" href="#">CHANCEZ</a>
+
+			<div class="col" id="right">
+				<ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a href="" class="nav-link text-white" href="#">Log In</a>
+			      </li>
+			    </ul>
 			</div>
-			<div class="col"></div>
+
 		</nav>
 	</head>
 
 	<body>
 		<div class="row" id="main">
-			<div class="card col-sm-3">
-			  	<div class="card-body">
-				    <h2 class="text-center"> Invest in the <br/>future.</h2>
+
+			<div class="card" id="textbox">
+			  	<div class="card-body" id="main_card">
+				    <h1 class="text-center text-white" id="invest" > Investing in the future. </h1>
 				    <hr>
 
-				    <p class="text-left">
-				    	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis at tellus at urna condimentum mattis pellentesque. Fermentum posuere urna nec tincidunt. Ut lectus arcu bibendum at varius vel. Quis enim lobortis scelerisque fermentum dui faucibus in ornare quam. Pretium fusce id velit ut tortor. Vitae ultricies leo integer malesuada nunc vel risus commodo.
-				    </p>
+				    <p class="text-left text-white text-center" id="paragraph">
+				    	Lorem Ipsum whateveroern
 			  	</div>
 			</div>
-			<div class="col-sm-6 text-center bottom-column">
-				<div class="bottom">
-				  <a href="dashboard.html"><button type="button" class="btn success btn-round-lg big-button shift-button">BECOME A MENTOR</button></a>
-				  <a href="dashboard.html"><button type="button" class="btn primary btn-round-lg big-button shifted"><span class="shifted-button">SIGN UP</span></button></a>
-			 	</div>
+
+			<div class="bottom">
+				<a href="dashboard.html"><button type="button" class="btn success btn-round-lg big-button">LEARN MORE</button></a>
+				<a href="log_in.html"><button type="button" class="btn primary btn-round-lg big-button"> LOG IN</button></a>
 			</div>
-			<div class="col-sm-3"></div>
+
 		</div>
 	</body>
 </html>
