@@ -102,3 +102,12 @@ p {
 	bottom: 270px;
 	font-size: 40px;
 }
+
+#doc {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	bottom: 435px;
+	left: 790px;
+}
+
