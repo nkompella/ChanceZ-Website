@@ -1,4 +1,4 @@
-# blockchain-website
+# ChanceZ Website
 1. Front Page
 - Nav bar [Done]
 - Background Image [Done]
@@ -33,7 +33,7 @@
 - Video Upload Box [Done]
 8. Proposals Page
 - 2 Columns [Done]
-- Proposals with Acceptance/Denial Options 
+- Proposals with Acceptance/Denial Options [Done]
 - Messages [Done]
 - Calendar [Done]
 - Expanded InMentor View
