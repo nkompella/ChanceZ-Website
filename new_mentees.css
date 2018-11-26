@@ -115,6 +115,7 @@ body {
 	bottom: 42px;
 	right: 129px;
 	z-index: 50;
+	cursor: pointer;
 }
 
 #name {

@@ -90,7 +90,7 @@
 
 		<div class="row">
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">
+				<img onclick="toggle(this)" id="plus" src="v2/drawisland.png">
 				<img id="video" src="v2/People/blurred_pics/student1_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student1.png">
 	    		<h2 id="name" class="text-white">Pablo, Freshman </h2>
@@ -98,7 +98,7 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">			
+				<img onclick="toggle(this)" id="plus" src="v2/drawisland.png">			
 				<img id="video" src="v2/People/blurred_pics/student2_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student2.png">
 	    		<h2 id="name" class="text-white"> Rose, Sophomore</h2>
@@ -106,7 +106,7 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>	  		
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">			
+				<img onclick="toggle(this)" id="plus" src="v2/drawisland.png">			
 				<img id="video" src="v2/People/blurred_pics/student3_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student3.png">
 	    		<h2 id="name" class="text-white">Denise, Sophomore </h2>
@@ -114,7 +114,7 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">			
+				<img onclick="toggle(this)" id="plus" src="v2/drawisland.png">			
 				<img id="video" src="v2/People/blurred_pics/student4_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student4.png">
 	    		<h2 id="name" class="text-white">Trevor, Junior </h2>
@@ -122,7 +122,7 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>
 			<div class="column" style="background-color:#989898;">
-				<img id="plus" src="v2/drawisland.png">
+				<img onclick="toggle(this)" id="plus" src="v2/drawisland.png">
 				<img id="video" src="v2/People/blurred_pics/student5_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student5.png">
 	    		<h2 id="name" class="text-white">Ella, Sophomore </h2>
@@ -130,7 +130,7 @@
 	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
 	  		</div>
 			<div class="column" style="background-color:#989898;">
-				<img onclick="replaceMe()" id="plus" class=6plus src="v2/drawisland.png">
+				<a href="#"><img onclick="toggle(this)" id="plus" src="v2/drawisland.png"></a>
 				<img id="video" src="v2/People/blurred_pics/student6_blurred.jpg">
 				<img id="propic" src="v2/People/student_circles/student6.png">
 	    		<h2 id="name" class="text-white">Liau, Senior </h2>
@@ -139,14 +139,39 @@
 	  		</div>  			  			  			  					
 		</div>
 
+		<div class="modal" tabindex="-1" role="dialog" id="#exampleModal">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title">Modal title</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        <p>Modal body text goes here.</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 		<a href="selected_mentees.html"><button id="submit" type="button">Send Proposals</button></a>
 
 		<script type="text/javascript">
-			function replaceMe() {
-				if (document.getElementByClassName("6plus") == '<img src="v2/drawisland.png" />') {
-					document.getElementByClassName("6plus") = '<img src="v2/green.png" />';
-				} else {
-					document.getElementByClassName("6plus") = '<img src="v2/drawisland.png" />';
+		var toggleCount = 0;
+		var check_file = "";
+			function toggle(element) {
+				if (new String(element.src).valueOf() == check_file.valueOf()) {
+					element.src = "v2/drawisland.png"
+					toggleCount -= 1;
+				} else if (toggleCount < 3){
+					element.src = "v2/check.png";
+					check_file = new String(element.src);
+					toggleCount += 1;
 				}
 			}
 		</script>
