@@ -1,8 +1,6 @@
 html, body {
     max-width: 100%;
-    max-height: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 #navbar {
@@ -44,7 +42,6 @@ body {
 
 .row2 {
 	display:flex;
-	padding-top: 4%;
 	justify-content: center;
 
 }
@@ -74,3 +71,34 @@ body {
 	top: 90px;
 }
 
+.paragraph {
+	margin-top: 60px;
+	width: 640px;
+	height: 200px;
+	margin-left: 210px;
+	font-family: "Times";
+	font-size: 25px;
+}
+
+#propic {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	bottom: 25px;
+	right: 50px;
+}
+
+p {
+	width: 500px;
+	position: relative;
+	left: 218px;
+	bottom: 255px;
+	font-size: 70px;
+}
+
+#job {
+	position: relative;
+	left: 280px;
+	bottom: 270px;
+	font-size: 40px;
+}
