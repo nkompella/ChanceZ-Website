@@ -35,7 +35,6 @@
 - Proposals with Acceptance/Denial Options [Done]
 - Messages [Done]
 - Calendar [Done]
-- InMentor Expansion
 10. Current Mentors Page
 - InMentor Blurbs [Done]
 - Mail Icon [Done]
