@@ -119,5 +119,35 @@ p {
 	position: relative;
 	left: 188px;
 	bottom: 158px;
+}
 
+.message {
+	width: 510px;
+	height: 70px;
+	margin-bottom: 25px;
+	margin-left: 90px;
+	font-family: "Times";
+}
+
+#mail {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	right: 20px;
+	bottom: 16px;
+}
+
+#subject {
+	font-size: 20px;
+	position: relative;
+	bottom: 20px;
+	left: 40px;
+}
+
+#cal {
+	position: relative;
+	left: 250px;
+	top: 20px;
+	font-family: "Times";
+	font-size: 30px;
 }
