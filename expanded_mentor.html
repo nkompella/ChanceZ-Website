@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="current_mentors.css">
+		<link rel="stylesheet" href="expanded_mentor.css">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
@@ -47,26 +47,41 @@
 		    </ul>
 		</nav>
 
-		<div id="mentees" class="text-white">Current Mentors</div>
 
-		<div class="row">
-			<div class="column" style="background-color:#989898;">
-				<a href="#"><img id="mail" src="v2/msg3.png"></a>		
+		<div class="row1">
+			<div class="paragraph" style="background-color:#989898;">
 				<img id="propic" src="v2/People/investors/investor2.png">
-	    		<h2 id="name" class="text-white"> Jenna Novak</h2>
-	    		<h4 id="title" class="text-white">Heart Surgeon</h2>
-	    		<a href="expanded_mentor.html"><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
-	    		<a href="#"><img id="doc" src="v2/doc2.png"></a>
+				<p class="text-white">Jenna Novak</p>
+				<div id="job" class="text-white">Heart Surgeon</div>
+				<a href=""><img id="doc" src="v2/doc2.png"></a>
+				<a href=""><img id="mail" src="v2/msg3.png"></a>
+			</div>
+		</div>
 
-	  		</div>	  		
-			<div class="column" style="background-color:#989898;">
-				<a href="#"><img id="mail" src="v2/msg3.png"></a>			
-				<img id="propic" src="v2/People/investors/investor3.png">
-	    		<h2 id="name" class="text-white">Darryl Carrington</h2>
-	    		<h4 id="title" class="text-white">Fiction Author</h2>
-	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EXPAND</button></a>
-	    		<a href="#"><img id="doc" src="v2/doc2.png"></a>
-	  		</div>  			  			  			  					
+		<div class="row2">
+			<div class="column" style="background-color:#333333;">
+	    		<h2 id="label" class="text-white">Funded</h2>
+	    		<div id="box">Self-Funding</div>
+	    		<div id="box">Financial Aid</div>
+	    		<div id="box">CZ Support</div>
+
+	    		<a href=""><button type="button" class="btn success btn-round-lg big-button text-white">EDIT</button></a>
+	  		</div>
+			<div class="column" style="background-color:#333333;">
+		    	<h2 id="label" class="text-white">Monthly Grant</h2>
+		    	<div id="box">Monthly CZ Grant</div>
+	    		<div id="box">Total CZ Grants Received</div>
+	    		<div id="box">CZ Support</div>
+	    		<div class="total">1,225 USD</div>
+	    		<a href=""><button type="button" id="twocol" class="btn success btn-round-lg big-button text-white">EDIT</button></a>
+    		</div>
+	  		<div class="column" id="uploadvid" style="background-color:#333333;">
+	    		<h2 id="label" class="text-white">Monthly Salary</h2>
+	    		<div class="totaltwo">0.00 USD</div>
+	    		<a href=""><button type="button" id="threecol" class="btn success btn-round-lg big-button text-white">EDIT</button></a>
+	    		<div class="totalthree">0.00 USD</div>
+	    		<a href=""><button type="button" id="threecolb" class="btn success btn-round-lg big-button text-white">EDIT PAYMENT</button></a>
+	  		</div>
 		</div>
 
 	</body>

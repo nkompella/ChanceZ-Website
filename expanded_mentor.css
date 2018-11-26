@@ -1,0 +1,175 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#navbar {
+	height: 100px;
+	background-color: #333333;
+	border-bottom: gray;
+	border-style: solid;
+	border-width: .5px;
+}
+
+#left {
+	left: 100px;
+	font-family: "Helvetica";
+
+}
+
+#right {
+	left: 300px;
+	font-family: "Helvetica";
+}
+
+#logo {
+	text-indent: 180px;
+}
+
+#invest {
+	font-size: 60px;
+}
+
+/* BODY */
+
+body {
+   background-color: #333333;
+}
+
+#center_nav {
+	left: 41%;
+}
+
+.row2 {
+	display:flex;
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 10px;
+    height: 350px;
+    margin: 60px;
+    border-style: solid;
+    border-color: #E09755;
+    border-width: 5px;
+    text-align: center;
+    font-family: "Times";
+}
+
+.btn {
+	height: 40px;
+	width: 150px;
+	border-radius: 50px;
+	border-color: #E09755;
+	background-color: #333333;
+	font-size: 15px;
+	font-family: "Times";
+	position: relative;
+	top: 90px;
+}
+
+.paragraph {
+	margin-top: 60px;
+	width: 640px;
+	height: 200px;
+	margin-left: 210px;
+	font-family: "Times";
+	font-size: 25px;
+    box-shadow: 5px 10px;
+}
+
+#propic {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	bottom: 25px;
+	right: 50px;
+}
+
+p {
+	width: 500px;
+	position: relative;
+	left: 218px;
+	bottom: 255px;
+	font-size: 70px;
+}
+
+#job {
+	position: relative;
+	left: 280px;
+	bottom: 270px;
+	font-size: 40px;
+}
+
+#doc {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	bottom: 435px;
+	left: 790px;
+}
+
+#mail {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 410px;
+	bottom: 335px;
+}
+
+#box {
+	background: #989898;
+	margin-bottom: 15px;
+	text-align: left;
+	position: relative;
+	top: 20px;
+	left: 18px;
+	width: 190px;
+	height:30px;
+	box-shadow: black;
+}
+
+.total {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 30px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+.totaltwo {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 30px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+.totalthree {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 20px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+#twocol {
+	top: 10px;
+}
+
+#threecol {
+	top: 10px;
+}
+
+#threecolb {
+	top: 10px;
+}
+
+
