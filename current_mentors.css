@@ -43,6 +43,7 @@ body {
 .row2 {
 	display:flex;
 	justify-content: center;
+	margin-top: 20px;
 
 }
 
@@ -109,5 +110,25 @@ p {
 	position: relative;
 	bottom: 435px;
 	left: 790px;
+}
+
+#mail {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 410px;
+	bottom: 335px;
+}
+
+#box {
+	background: #989898;
+	margin-bottom: 15px;
+	text-align: left;
+	position: relative;
+	top: 20px;
+	left: 18px;
+	width: 190px;
+	height:30px;
+	box-shadow: black;
 }
 
