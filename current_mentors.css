@@ -132,3 +132,43 @@ p {
 	box-shadow: black;
 }
 
+.total {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 30px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+.totaltwo {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 30px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+.totalthree {
+	font-family: "Times";
+	font-size: 45px;
+	margin-top: 20px;
+	color: #E09755;
+	text-decoration: underline;
+
+}
+
+#twocol {
+	top: 10px;
+}
+
+#threecol {
+	top: 10px;
+}
+
+#threecolb {
+	top: 10px;
+}
+
+
