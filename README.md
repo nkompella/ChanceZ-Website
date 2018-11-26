@@ -18,7 +18,7 @@
 - Student Bio Pics [Done]
 - Student Bio Blurred Background [Done]
 - Student Bio Expansion
-- Student Bio Selection
+- Student Bio Selection [Done]
 5. Mentor In Progress Page
 - Student Blurbs [Done]
 - Expansions
@@ -34,20 +34,17 @@
 8. Proposals Page
 - 2 Columns [Done]
 - Proposals with Acceptance/Denial Options 
-- Messages
-- Calendar
+- Messages [Done]
+- Calendar [Done]
 - Expanded InMentor View
-9. Student In Progress Page
-- InMentor short bio
-- Box with paragraph & document
-- Approve and Sign
 10. Current Mentors Page
-- InMentor Blurbs
-- Mail Icon
-- Expansions
-11. Expanded Contracts Page
-- Financial Information
-- Access to Contract
-- InMentor information
+- InMentor Blurbs [Done]
+- Mail Icon [Done]
+- Document [Done]
+- Navigation to Expanded View [Done]
+11. Expanded InMentor Page
+- Financial Information [Done]
+- Access to Contract [Done]
+- InMentor information [Done]
 
 
