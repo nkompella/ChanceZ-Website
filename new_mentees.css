@@ -87,7 +87,11 @@ body {
 	background-color: #E09755;
 	border-radius: 50px;
 	width: 120px;
+}
 
+.btn_modal {
+	background-color: #E09755;
+	border-radius: 50px;
 }
 
 #propic {
@@ -115,7 +119,6 @@ body {
 	bottom: 42px;
 	right: 129px;
 	z-index: 50;
-	cursor: pointer;
 }
 
 #name {
@@ -144,4 +147,94 @@ p {
 	top: 20px;
 	font-family: "Times";
 	font-size: 20px;
+}
+
+#modal {
+	background-color: #333333;
+	border-style: solid;
+	border-color: #333333;
+	position: fixed;
+  	transform: translate(10%, 15%);
+  	width: 700px;
+  	height: 480px;
+}
+
+.modal-header {
+	border-style: solid;
+	border-color: #333333;
+}
+
+.modal-footer {
+	border-style: solid;
+	border-color: #333333;
+}
+
+#statement {
+	height: 60px;
+	width: 280px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	border-style: solid;
+	border-color: #E09755
+}
+
+#resume {
+	background-color: #333333;
+	border-style: solid;
+	border-color: #E09755;
+	height: 60px;
+	width: 280px;
+	position: relative;
+	top: 30px;
+	left: 10px;
+}
+
+#modal_plus {
+	width: 60px;
+	height: 60px;
+	z-index: 50;
+	position: relative;
+	bottom: 45px;
+}
+
+#paragraph_modal {
+	position: relative;
+	width: 300px;
+	left: 13px;
+	bottom: 50px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#characs {
+	position: relative;
+	top: 120px;
+	left: 10px;
+}
+
+#play {
+	z-index: 1000;
+	width: 75px;
+	height: 50px;
+	position: relative;
+	bottom: 150px;
+	left: 120px;
+
+}
+
+#video_modal {
+	width: 300px;
+	height: 200px;
+	position: relative;
+	left: 15px;
+	bottom: 25px;
+	border-radius: 15px;
+}
+
+#name_modal {
+	font-size: 40px;
+	position: relative;
+	left: 20px;
+	bottom: 60px;
 }
