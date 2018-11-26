@@ -1,4 +1,7 @@
 # ChanceZ Website
+
+Website hosted at https://nkompella.github.io/ChanceZ-Website/
+
 1. Front Page
 - Nav bar [Done]
 - Background Image [Done]
