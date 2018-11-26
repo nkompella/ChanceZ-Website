@@ -86,6 +86,7 @@ body {
 	height: 130px;
 	margin-bottom: 63px;
 	font-family: "Times";
+	box-shadow: 5px 10px;
 }
 
 #propic {
@@ -127,6 +128,7 @@ p {
 	margin-bottom: 25px;
 	margin-left: 90px;
 	font-family: "Times";
+	box-shadow: 5px 10px;
 }
 
 #mail {
@@ -157,6 +159,7 @@ p {
   width: 40px;
   background-color: #D8D8D8;
   text-align: center;
+  box-shadow: 4px 8px;
 }
 
 .dot {
