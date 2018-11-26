@@ -17,15 +17,14 @@
 - Filter Options [Done]
 - Student Bio Pics [Done]
 - Student Bio Blurred Background [Done]
-- Student Bio Expansion
+- Student Bio Expansion [Done]
 - Student Bio Selection [Done]
 5. Mentor In Progress Page
 - Student Blurbs [Done]
-- Expansions
+- Expansions [Done]
 6. Current Mentees Page
 - Student Blurbs [Done]
 - Mail Icon [Done]
-- Expansions
 7. Student Sign Up Page
 - Student Nav Bar [Done]
 - Verification Box [Done]
@@ -36,7 +35,7 @@
 - Proposals with Acceptance/Denial Options [Done]
 - Messages [Done]
 - Calendar [Done]
-- Expanded InMentor View
+- InMentor Expansion
 10. Current Mentors Page
 - InMentor Blurbs [Done]
 - Mail Icon [Done]
